@@ -1,0 +1,6 @@
+# Write your MySQL query statement below
+SELECT transaction_date ,  SUM(CASE WHEN amount %2 !=0 then amount ELSE 0 end) AS odd_sum , SUM(CASE WHEN amount %2=0 then amount ELSE 0 end) AS even_sum
+
+FROM transactions
+GROUP BY transaction_date
+ORDER BY transaction_date 
