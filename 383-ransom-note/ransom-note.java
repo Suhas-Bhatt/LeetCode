@@ -17,11 +17,6 @@ class Solution{
                 break;
             }
         }
-
-
-
-
-
     if(count == ransomNote.length()) return true;
     return false;
     }
