@@ -1,10 +1,4 @@
-// class Solution {
-//     public int[] maxSlidingWindow(int[] nums, int k) {
-        
-//     }
-// }
 import java.util.*;
-
 class Solution{
     static class Pair implements Comparable<Pair>{
         int val;
